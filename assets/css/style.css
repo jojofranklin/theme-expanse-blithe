@@ -278,7 +278,7 @@ header img.rainbow {
   height: 2px;
 }
 header h1 {
-  font-family: 'Roboto';
+  font-family: 'mission_scriptregular';
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1.75rem;
@@ -310,7 +310,7 @@ header ul li {
 header ul li a {
   display: inline-block;
   padding-bottom: 6px;
-  font-family: 'Roboto';
+  font-family: 'mission_scriptregular';
   font-weight: 400;
   color: #ffffff;
 }
@@ -1127,7 +1127,7 @@ div.posts h3 {
   padding: 0 0 12.5px 0;
   margin: 0;
   font-size: 2.25rem;
-  font-family: 'Roboto';
+  font-family: 'mission_scriptregular';
   font-weight: 300;
   color: #0e3029;
 }
