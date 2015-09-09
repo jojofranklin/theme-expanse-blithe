@@ -15,7 +15,9 @@
 
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="{{ assets('css/stylesheet.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ assets('css/animate.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ assets('css/style.css') }}">
+
 
 
     <!-- standard google analytics -->
@@ -126,7 +128,7 @@
         <div class="posts">
           {% for post in posts %}
           <div class="item">
-              <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+              <h3 class="animate fadeIn"><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
               <div class="post-content" data-type-cleanup="true">
                 {{ post.content }}
               </div>
