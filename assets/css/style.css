@@ -7,14 +7,15 @@
     More info at: http://lesselements.com
     MODIFIED BY: Brandon Brown
   ---------------------------------------------------*/
+
 @font-face {
     font-family: 'mission_scriptregular';
-    src: url('assets/fonts/mission-script-webfont.eot');
-    src: url('assets/fonts/mission-script-webfont.eot?#iefix') format('embedded-opentype'),
-         url('assets/fonts/mission-script-webfont.woff2') format('woff2'),
-         url('assets/fonts/mission-script-webfont.woff') format('woff'),
-         url('assets/fonts/mission-script-webfont.ttf') format('truetype'),
-         url('assets/fonts/mission-script-webfont.svg#mission_scriptregular') format('svg');
+    src: url('https://dl.dropboxusercontent.com/u/19084607/fonts/mission-script-webfont.eot');
+    src: url('https://dl.dropboxusercontent.com/u/19084607/fonts/mission-script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://dl.dropboxusercontent.com/u/19084607/fonts/mission-script-webfont.woff2') format('woff2'),
+         url('https://dl.dropboxusercontent.com/u/19084607/fonts/mission-script-webfont.woff') format('woff'),
+         url('https://dl.dropboxusercontent.com/u/19084607/fonts/mission-script-webfont.ttf') format('truetype'),
+         url('https://dl.dropboxusercontent.com/u/19084607/fonts/mission-script-webfont.svg#mission_scriptregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -1129,9 +1130,9 @@ div.posts h3 {
   padding: 0 0 12.5px 0;
   margin: 0;
   font-size: 2.25rem;
-  /*font-family: 'mission_scriptregular';*/
-  font-family: 'Roboto';
-  font-weight: 300;
+  font-family: 'mission_scriptregular';
+  /*font-family: 'Roboto';*/
+  /*font-weight: 300;*/
   color: #0e3029;
 }
 div.posts h3 a {
