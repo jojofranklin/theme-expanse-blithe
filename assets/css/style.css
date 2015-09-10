@@ -1172,6 +1172,10 @@ h3.tag-header {
   line-height: 10pt;
   padding: 7px;
 }
+header{
+  background-color:
+}
+
 header .header-graphic{
   color: #fff;
 }
@@ -1179,15 +1183,15 @@ header .header-graphic h4{
   color: #fff;
   font-family: 'mission_scriptregular';
   text-align: center;
-  -webkit-box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
+/*  -webkit-box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
   -moz-box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
   box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
-}
+*/}
 header .header-graphic h1{
   color: #fff;
   font-family: 'mission_scriptregular';
   text-align: center;
-  -webkit-box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
+/*  -webkit-box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
   -moz-box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
-  box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);
+  box-shadow: 3px 3px 29px 0px rgba(0,0,0,0.4);*/
 }
