@@ -1,3 +1,19 @@
 #my-styles header{
-  background-color: #0e3029;
+  background-color: #37cca2;
+}
+#my-styles header h1{
+  color: #fff;
+  font-family: 'mission_scriptregular';
+  text-align: center;
+  font-size: 80px;
+  font-weight: 100;
+
+}
+#my-styles header h4{
+  font-weight: 100;
+  font-family: 'mission_scriptregular';
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  font-size: 25px;
 }
