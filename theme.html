@@ -58,11 +58,18 @@
 
     {% else %}
     <header{% if is_post %} class="short"{% endif %}>
-      <div class="bg"></div>
-      <div class="spinner"></div>
-      <div class="shadow top"></div>
-      <div class="overlay"></div>
-      <img src="{{ assets('images/margs.jpg') }}" class="rainbow" />
+      <div class="bg">
+        <div class="header-graphic">
+          <h4 class="animated fadeInDown">The</h4>
+          <h1 class="animated fadeInUp">Blithe Home</h1>
+          <div class="house">
+          </div>
+        </div>
+      </div>
+      <!-- <div class="spinner"></div> -->
+      <!--   <div class="shadow top"></div> -->
+      <!-- <div class="overlay"></div> -->
+
       <!-- <img src="{{ assets('images/rainbow-bg.png') }}" class="rainbow" /> -->
       <div class="container wide">
         <!-- <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1> -->
