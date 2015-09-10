@@ -31,7 +31,6 @@
     </style>
     -->
     <link rel="stylesheet" type="text/css" href="{{ assets('css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ assets('css/my-styles.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ assets('css/animate.css') }}">
 
 
@@ -49,7 +48,7 @@
     </script>
     {% endif %}
   </head>
-  <body{% if is_post or is_tag or is_page %} id="my-styles" class="short-header"{% endif %}>
+  <body{% if is_post or is_tag or is_page %} class="short-header"{% endif %}>
 
     {% if is_login %}
 
@@ -62,6 +61,23 @@
           <h1 class="animated fadeInUp">Blithe Home</h1>
           <div class="house">
           </div>
+
+      </div>
+      <!-- <div class="spinner"></div> -->
+      <!--   <div class="shadow top"></div> -->
+      <!-- <div class="overlay"></div> -->
+
+      <img src="{{ assets('images/rainbow-bg.png') }}" class="rainbow" />
+      <div class="container wide">
+        <!-- <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1> -->
+        {% if pages %}
+        <ul class="cover-nav">
+          <li><a href="{{ site.base_url }}">Blog</a></li>
+            {% for page in pages %}
+            <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
       </div>
     </header>
 
