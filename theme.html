@@ -49,7 +49,8 @@
     </script>
     {% endif %}
   </head>
-  <body{% if is_post or is_tag or is_page %} id="my-styles" class="short-header"{% endif %}>
+  <div id="my-styles">
+  <body{% if is_post or is_tag or is_page %} class="short-header"{% endif %}>
 
     {% if is_login %}
 
@@ -264,4 +265,5 @@
     </script>
 
   </body>
+  </div>
 </html>
