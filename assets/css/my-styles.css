@@ -1,12 +1,13 @@
 #my-styles header{
   background-color: #37cca2;
   height: 220px;
+  padding-bottom: 5px;
 }
 #my-styles header h1{
   color: #fff;
   font-family: 'mission_scriptregular';
   text-align: center;
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 100;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 
@@ -24,4 +25,24 @@
 #my-styles h1, h2, h3, h4, h5{
   font-weight: 100;
   font-family: 'mission_scriptregular';
+}
+#my-style .post h1 {
+  padding-bottom: 25px;
+  font-size: 50px;
+}
+
+#my-styles div.posts div.item .post-content p {
+  padding: 10px 0px 4px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+#my-styles div.posts div.item .post-content div {
+ padding: 10px 0px 4px;
+ line-height: 30px;
+ font-size: 18px;
+}
+
+#my-styles .post {
+  padding-top: 100px;
 }
