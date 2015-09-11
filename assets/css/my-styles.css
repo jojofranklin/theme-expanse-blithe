@@ -2,6 +2,7 @@
   background-color: #37cca2;
   height: 220px;
   padding-bottom: 5px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 }
 #my-styles header h1{
   color: #fff;
@@ -26,7 +27,7 @@
   font-weight: 100;
   font-family: 'mission_scriptregular';
 }
-#my-style .post h1 {
+#my-style h1.post  {
   padding-bottom: 25px;
   font-size: 50px;
 }
