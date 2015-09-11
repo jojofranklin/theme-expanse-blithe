@@ -27,7 +27,7 @@
   font-weight: 100;
   font-family: 'mission_scriptregular';
 }
-#my-styles h1.post  {
+#my-styles .post h1 {
   padding-bottom: 25px;
   font-size: 50px;
 }
