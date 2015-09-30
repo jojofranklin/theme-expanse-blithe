@@ -1,12 +1,14 @@
 #my-styles header{
   background-color: #56a24c;
   height: 220px;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 }
 #my-styles header h1{
   color: #fff;
   font-family: 'mission_scriptregular';
   text-align: center;
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 100;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 
@@ -28,4 +30,3 @@
 
 #my-styles .post h1 {
   padding-bottom: 35px;
-}
