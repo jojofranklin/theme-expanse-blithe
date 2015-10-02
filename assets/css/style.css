@@ -61,7 +61,7 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #56a24c;
+  color: #f37021;
 }
 a:hover {
   color: #0e3029;
@@ -108,7 +108,7 @@ a {
   color: #0e3029;
 }
 a:hover {
-  color: #56a24c;
+  color: #f37021;
 }
 body {
   padding: 0;
@@ -402,7 +402,7 @@ body {
   font-size: 0.85rem;
 }
 .bio .user-avatar-hover ul li a:hover {
-  color: #56a24c;
+  color: #f37021;
 }
 .bio.doHover .user-avatar img {
   -moz-opacity: 0.8;
@@ -463,7 +463,7 @@ footer i {
 }
 footer a:hover,
 footer i:hover {
-  color: #56a24c;
+  color: #f37021;
 }
 footer i {
   font-size: 1.1rem;
@@ -529,7 +529,7 @@ a.btn.btn-mini:hover {
   margin-bottom: 25px;
 }
 .post a.back:hover span {
-  color: #56a24c;
+  color: #f37021;
 }
 .post .post-content a {
   text-decoration: underline;
@@ -720,7 +720,7 @@ a.btn.btn-mini:hover {
   font-size: 0.9rem;
 }
 .post-tags li a:hover {
-  background-color: #56a24c;
+  background-color: #f37021;
 }
 .post-author {
   cursor: default;
@@ -763,7 +763,7 @@ a.btn.btn-mini:hover {
   font-size: 0.85rem;
   font-family: 'Roboto';
   font-weight: 400;
-  color: #56a24c;
+  color: #f37021;
 }
 .post-options {
   width: 50%;
@@ -998,7 +998,7 @@ div.posts h3 a {
   color: #0e3029;
 }
 div.posts h3 a:hover {
-  color: #56a24c;
+  color: #f37021;
 }
 div.posts h3 a.like {
   position: absolute;
@@ -1011,10 +1011,10 @@ div.posts h3 a.like span {
   color: #afb7b5;
 }
 div.posts h3 a.like:hover {
-  color: #56a24c;
+  color: #f37021;
 }
 div.posts h3 a.like:hover span {
-  color: #56a24c;
+  color: #f37021;
 }
 h3.tag-header {
   padding-bottom: 50px;
@@ -1046,10 +1046,10 @@ h3.tag-header {
   color: #afb7b5;
 }
 .pagination a:hover {
-  color: #56a24c;
+  color: #f37021;
 }
 .pagination a:hover span {
-  color: #56a24c;
+  color: #f37021;
 }
 .pagination .prev {
   float: left;
