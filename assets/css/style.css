@@ -79,7 +79,7 @@ body {
   color: #0e3029;
   line-height: 1.5rem;
   font-family: 'Volkorn';
-  font-weight: 300;
+  font-weight: 400;
 }
 h1,
 h2,
@@ -519,7 +519,7 @@ a.btn.btn-mini:hover {
 .post {
   display: block;
   clear: both;
-  padding: 125px 0 0 0;
+  padding: 105px 0 0 0;
 }
 .post a {
   text-decoration: none;
@@ -761,10 +761,11 @@ a.btn.btn-mini:hover {
   font-size: 0.85rem;
 }
 .post-author p span.post-author-name {
-  font-size: 0.85rem;
+  font-size: 15px;
   font-family: 'Volkorn';
-  font-weight: 400;
+  font-weight: 800;
   color: #f37021;
+  font-style: italic;
 }
 .post-options {
   width: 50%;
